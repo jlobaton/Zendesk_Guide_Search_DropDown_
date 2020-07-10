@@ -1,0 +1,33 @@
+
+.select2-container--default .select2-selection--single {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position: right 10px center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 30px 8px 10px;
+    outline: none;
+    color: #555;
+}
+
+.select2-container .select2-selection--single {
+    height: 40px !important;
+}
+
+.select2-container--default .select2-selection--single {
+ 	 border: 1px solid #ddd !important;
+}
+
+div.form-field.select.optional.request_ticket_form_id {
+  max-width: 98%;
+}
+
+body {
+  background-color: $background_color;
+  color: $text_color;
+  font-family: 'Istok_Web', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
